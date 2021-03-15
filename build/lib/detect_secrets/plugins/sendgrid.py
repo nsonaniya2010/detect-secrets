@@ -14,5 +14,5 @@ class SendgridKeyDetector(RegexBasedDetector):
     secret_type = 'Sendgrid API Token'
 
     denylist = [
-        re.compile(r'SG\\.[a-zA-Z0-9]{22}\\.[a-zA-Z0-9]{43}')
+        re.compile(r'SG\\.[a-zA-Z0-9]{22}\\.[a-zA-Z0-9]{43}'),
     ]

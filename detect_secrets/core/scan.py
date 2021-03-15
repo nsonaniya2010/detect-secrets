@@ -212,7 +212,7 @@ def _scan_for_allowlisted_secrets_in_lines(
     # to set this setting before calling this function.
     get_settings().disable_filters('detect_secrets.filters.allowlist.is_line_allowlisted')
     get_filters.cache_clear()
-    
+
     # adding this custom code if lines are empty
     try:
         line_numbers, lines = zip(*lines)

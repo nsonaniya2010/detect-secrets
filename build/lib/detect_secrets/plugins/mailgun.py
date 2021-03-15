@@ -14,5 +14,5 @@ class MailgunKeyDetector(RegexBasedDetector):
     secret_type = 'Mailgun Auth Token'
 
     denylist = [
-        re.compile(r'key-[0-9a-zA-Z]{32}')
+        re.compile(r'key-[0-9a-zA-Z]{32}'),
     ]

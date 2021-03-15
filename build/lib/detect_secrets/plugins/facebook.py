@@ -14,5 +14,5 @@ class FacebookKeyDetector(RegexBasedDetector):
     secret_type = 'Facebook Oauth Token'
 
     denylist = [
-        re.compile(r'EAACEdEose0cBA[0-9A-Za-z]+')
+        re.compile(r'EAACEdEose0cBA[0-9A-Za-z]+'),
     ]

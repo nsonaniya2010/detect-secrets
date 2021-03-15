@@ -202,7 +202,7 @@ class YAMLFileParser:
         line = self.loader.line
 
         node = yaml.composer.Composer.compose_node(self.loader, parent, index)
-        node.__line__ = line # line + 1
+        node.__line__ = line  # line + 1
 
         if node.tag.endswith(':map'):
             return _tag_dict_values(node)
