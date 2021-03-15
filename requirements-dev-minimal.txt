@@ -12,3 +12,4 @@ responses
 tox-pip-extensions
 tox
 unidiff
+requests

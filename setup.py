@@ -32,7 +32,7 @@ setup(
     keywords=['secret-management', 'pre-commit', 'security', 'entropy-checks'],
     install_requires=[
         'pyyaml',
-        'requests',
+        'requests==2.25.1',
     ],
     extras_require={
         'word_list': [
